@@ -10,7 +10,6 @@ class square {
 		  for(index=0;index<8;index++)
 		    array[index]=in.nextInt();
 		   Arrays.sort(array);
-		   System.out.println(Arrays.toString(array));
 		   for(index=0;index<4;index++)
 		   {
 		       if((2*array[index])==(array[index+4]))
